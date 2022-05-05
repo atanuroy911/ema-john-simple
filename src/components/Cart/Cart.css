@@ -1,0 +1,16 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 28px 23px;
+    display: block;
+}
+.cart h4 {
+    margin: 16px 0px;
+}
+
+@media screen and (max-width: 1440px) {
+    .cart{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
